@@ -100,10 +100,15 @@ body {
 }
 
 #navigation:hover {
-    background-color: rgb(216, 216, 216);
-    color:rgb(20, 93, 26);
-    .brand{color: rgb(171, 162, 162)}
-    li{color: rgb(171, 162, 162);}
+  background-color: rgb(216, 216, 216);
+}
+
+#navigation:hover .brand {
+  color: rgb(171, 162, 162);
+}
+
+#navigation:hover li {
+  color: rgb(171, 162, 162);
 }
 
 #loginMain {
@@ -284,12 +289,12 @@ body {
 }
 
 /* de andra labels lite ljusare */
-.roleSwitch label{
+#roleSwitch label{
   color: rgba(255,255,255,0.85);
 }
 
 /* tangentbord: visa fokus när man tabbar */
-.roleSwitch input:focus-visible + label{
+#roleSwitch input:focus-visible + label{
   outline: 2px solid rgba(255,255,255,0.9);
   outline-offset: 3px;
   border-radius: 10px;
@@ -378,6 +383,7 @@ body {
   transition: 1s;
   cursor: pointer;
 }
+
 
 
 
