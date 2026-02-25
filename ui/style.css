@@ -71,7 +71,7 @@ body {
 
 #navigation li{
     color: aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
 }
 
 .brand {
@@ -90,7 +90,7 @@ body {
     align-items: center;
     text-decoration: none;
     color: rgb(216, 216, 216);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
 }
 
 #LogIn:hover {
@@ -143,7 +143,7 @@ body {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
 }
 
 #logOut:hover {
@@ -176,7 +176,7 @@ body {
 #dashboardPage {
     display: flex;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
     width: 300px;
 }
 
@@ -215,7 +215,7 @@ body {
   white-space:nowrap; border:0;
 }
 
-.roleSwitch{
+#roleSwitch{
   --pad: 6px;
   --radius: 999px;
 
@@ -227,19 +227,19 @@ body {
   background: rgba(0,0,0,0.25);
   border-radius: var(--radius);
   padding: var(--pad);
-
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
   margin: 0 0 16px 0;
   border: 0;
 }
 
 /* göm radioknapparna, men behåll funktionaliteten */
-.roleSwitch input{
+#roleSwitch input{
   position: absolute;
   opacity: 0;
   pointer-events: none;
 }
 
-.roleSwitch label{
+#roleSwitch label{
   position: relative;
   z-index: 1;
   text-align: center;
@@ -247,7 +247,7 @@ body {
   cursor: pointer;
   user-select: none;
 
-  font-weight: 600;
+  font-weight: 300;
   transition: color 180ms ease;
 }
 
@@ -329,7 +329,7 @@ body {
     flex-direction: column;
     color: white;
     text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
 }
 
 
@@ -339,13 +339,13 @@ body {
     border-radius: 30px;
     border: 3px solid black;
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
 }
 
 #loggaIn {
     color: aliceblue;
     margin-left: 220px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
 }
 
 
@@ -356,7 +356,7 @@ body {
     border-radius: 30px;
     border: 3px solid black;
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
 }
 
 #val {

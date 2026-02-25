@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logga in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="loginMain">
+        
+        <form class="loginCard" id="loginForm">
+            <h1 id="loggaIn">Logga in</h1>
+            <fieldset id="roleSwitch">
+                <legend class="sr-only">Välj roll</legend>
+
+                <!-- radio = semantik + tillgänglighet -->
+                <input type="radio" name="role" id="role-tranare" value="trainer" checked>
+                <input type="radio" name="role" id="role-anstalld" value="staff">
+                <input type="radio" name="role" id="role-klient" value="client">
+
+                <span class="rolePill" aria-hidden="true"></span>
+
+                <label for="role-tranare">Tränare</label>            
+                <label for="role-anstalld">Anställd</label>
+                <label for="role-klient">Klient</label>
+                
+            </fieldset>
+
+            <div id="fields">
+                <label for="email">Epost</label>
+                    <input type="email" name="email" id="emailField" placeholder="JohnDoe@example.com" required>
+                
+                <label for="password">Lösenord</label>
+                    <input type="password" name="password" id="passwordField" placeholder="Password" required>
+                    <button type="submit" id="logInBtn">Logga in</button>
+            </div>
+
+            
+        </form>
+    </main>
+
+    <script src="loginFunction.js"></script>
+</body>
+</html>
