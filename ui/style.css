@@ -282,9 +282,9 @@ body {
 }
 
 /* textfärg på vald label */
-#role-tranare:checked + label,
-#role-anstalld:checked + label,
-#role-klient:checked + label{
+#role-tranare:checked ~ label[for="role-tranare"],
+#role-anstalld:checked ~ label[for="role-anstalld"],
+#role-klient:checked ~ label[for="role-klient"]{
   color: #000;
 }
 
@@ -294,7 +294,7 @@ body {
 }
 
 /* tangentbord: visa fokus när man tabbar */
-#roleSwitch input:focus-visible + label{
+#roleSwitch input:focus-visible ~ label{
   outline: 2px solid rgba(255,255,255,0.9);
   outline-offset: 3px;
   border-radius: 10px;
@@ -383,6 +383,7 @@ body {
   transition: 1s;
   cursor: pointer;
 }
+
 
 
 
