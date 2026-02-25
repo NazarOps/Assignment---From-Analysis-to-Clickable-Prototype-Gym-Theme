@@ -1,14 +1,16 @@
 📄 Project: Simple Gym website with Index, Login and Dashboard
 
-1. Problem Statement
+#### Problem Statement
 
 Problem:
 Clients need a simplified platform that lets them log in, see relevant information about the gym and check their membership status.
 
-2. Stakeholders
+Stakeholders:
 Clients
 
-3. Requirement list
+--------
+
+### Requirement list
    
 Functional requirements:
 
@@ -30,7 +32,7 @@ Website should be
 NF3. Performance
 Website should load and respond to user input instantly without extra delay
 
-4. Priorities (MoSCoW)
+### Priorities (MoSCoW)
    
 Must Have: 
 
@@ -62,7 +64,7 @@ Membership plan billing
 
 --------
 
-Preconditions:
+### Preconditions:
 
 * User is located on the main page (index.html)
 * User has an account
@@ -86,15 +88,33 @@ Alternate Flows:
 - In case of incorrect e-mail and password credentials, the system should notify the user to input correct information
 - The system should notify the user if they are trying to login with a different role that they do not have permissions for
 
+--------
 
-Postconditions:
+### Postconditions:
 
 - After inputting the correct credentials, the user should be redirected to the corresponding page
 - In case of incorrect credentials, the user will remain on the login page until they enter correct details
 
-6. Change Notes:
+--------
+
+### Risks and limitations
+- Login is client-side only and does not provide real authentication or security.
+- User roles are simulated and not validated against a backend.
+- No persistent session handling or data storage is implemented.
+
+--------
+
+### Possible improvements
+- Add backend authentication and database integration.
+- Improve accessibility testing with screen readers.
+- Add role-based dashboards with dynamic content.
+
+--------
+
+### Change Notes:
 
 1.0	2026-02-24	First version of requirements and use-case document
 1.1	2026-02-24	Index.html, Dashboard.html and Login.html implemented
 1.2   2026-02-25  script.js, style.css changed
+
 
