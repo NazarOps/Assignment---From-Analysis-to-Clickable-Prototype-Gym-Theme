@@ -24,10 +24,10 @@ Functional requirements:
 Non-functional requirements
 
 - NF1. Usability
-The application be user-friendly and straightforward without unecessary complexity.
+The application be user-friendly and straightforward without unecessary complexity
 
 - NF2. Accessibility
-Website should be 
+Website should be easily accessible
 
 - NF3. Performance
 Website should load and respond to user input instantly without extra delay
@@ -115,4 +115,5 @@ Alternate Flows:
 
 ### Additional Information
 - Components.html should technically only show the componential structure of the website but I decided to do a mini demo of a dashboard layout with newsletter, article and section.
+
 
