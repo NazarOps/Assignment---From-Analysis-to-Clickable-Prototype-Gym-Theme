@@ -18,8 +18,8 @@ Functional requirements:
 - F2. After login, the system should redirect the user to the corresponding dashboard based on their role.
 - F3. Clients should be able to check the newsletter and sign up for gym classes.
 - F4. Clients should be able to cancel their sign ups.
-- F4. Dashboarden ska visa relevant information och notiser beroende på roll.
-- F5. Client should be able to logout and be redirected to the home page.
+- F5. Dashboard should show newsletter, information about the gym and membership tirs.
+- F6. Client should be able to logout and be redirected to the home page.
 
 Non-functional requirements
 
@@ -115,5 +115,6 @@ Alternate Flows:
 
 ### Additional Information
 - Components.html should technically only show the componential structure of the website but I decided to do a mini demo of a dashboard layout with newsletter, article and section.
+
 
 
