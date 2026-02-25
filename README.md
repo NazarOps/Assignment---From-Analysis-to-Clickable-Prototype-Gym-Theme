@@ -14,22 +14,22 @@ Clients
    
 Functional requirements:
 
-F1. The system should offer a role based login for the user (Clients, PT, Staff)
-F2. After login, the system should redirect the user to the corresponding dashboard based on their role.
-F3. Clients should be able to check the newsletter and sign up for gym classes.
-F4. Clients should be able to cancel their sign ups.
-F4. Dashboarden ska visa relevant information och notiser beroende på roll.
-F5. Client should be able to logout and be redirected to the home page.
+- F1. The system should offer a role based login for the user (Clients, PT, Staff)
+- F2. After login, the system should redirect the user to the corresponding dashboard based on their role.
+- F3. Clients should be able to check the newsletter and sign up for gym classes.
+- F4. Clients should be able to cancel their sign ups.
+- F4. Dashboarden ska visa relevant information och notiser beroende på roll.
+- F5. Client should be able to logout and be redirected to the home page.
 
 Non-functional requirements
 
-NF1. Usability
+- NF1. Usability
 The application be user-friendly and straightforward without unecessary complexity.
 
-NF2. Accessibility
+- NF2. Accessibility
 Website should be 
 
-NF3. Performance
+- NF3. Performance
 Website should load and respond to user input instantly without extra delay
 
 ### Priorities (MoSCoW)
@@ -37,18 +37,15 @@ Website should load and respond to user input instantly without extra delay
 Must Have: 
 
 F1. The system should offer a role based login for the user (Clients, PT, Staff)
-F2. After login, the system should redirect the user to the corresponding dashboard based on their role.
-F3. Clients should be able to check the newsletter and sign up for gym classes.
-F4. Clients should be able to cancel their sign ups.
-F4. Dashboarden ska visa relevant information och notiser beroende på roll.
+F2. After login, the system should redirect the user to the corresponding dashboard based on their role
+F3. Clients should be able to check the newsletter
+F4. Dashboard should display newsletter, general information about the gym (machine maintenance etc), membership status and available membership tiers
 F5. Client should be able to logout and be redirected to the home page.
 
 
 Should Have
 
-NF1. Website performance
-NF2. User accessibility
-NF3. 
+Website performance and ease of use accessibility. 
 
 
 Could Have:
@@ -111,11 +108,11 @@ Alternate Flows:
 
 --------
 
-### Change Notes:
-
+### Change Notes
 - 1.0	2026-02-24	First version of requirements and use-case document
 - 1.1	2026-02-24	Index.html, Dashboard.html and Login.html implemented
 - 1.2 2026-02-25  script.js, style.css changed (see commits)
 
-
+### Additional Information
+- Components.html should technically only show the componential structure of the website but I decided to do a mini demo of a dashboard layout with newsletter, article and section.
 
