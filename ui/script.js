@@ -21,7 +21,8 @@ function LoginSucess(e) {
 
     else {
         window.alert("Login successful!");
-        window.location.href = "dashboard.html";
+        window.location.href = "components.html";
     }
     
 }
+
