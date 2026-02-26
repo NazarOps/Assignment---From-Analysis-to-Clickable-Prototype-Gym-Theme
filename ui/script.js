@@ -1,5 +1,6 @@
 const form = document.getElementById("loginForm");
 const button = document.getElementById("editParagraph");
+const cancelMembership = document.getElementById("cancelMembership");
 
 
 
@@ -53,5 +54,13 @@ if (button) {
   function changeInfo() {
     document.getElementById("text").textContent = "Training equipment is fixed!";
 
+  }
+}
+
+if (cancelMembership) {
+  cancelMembership.addEventListener("click", cancelMember);
+
+  function cancelMember() {
+    document.getElementById("membership").textContent = "Welcome, person! You currently don't have an active membership!";
   }
 }
