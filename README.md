@@ -37,11 +37,11 @@ Website should load and respond to user input instantly without extra delay
 Must Have: 
 
 F1. The system should offer a role based login for the user (Clients, PT, Staff)
-F2. After login, the system should redirect the user to the corresponding dashboard based on their role
+F2. After login, the system should redirect the user to the corresponding dashboard
 F3. Clients should be able to check the newsletter
 F4. Dashboard should display newsletter, general information about the gym (machine maintenance etc), membership status and available membership tiers
 F5. Client should be able to logout and be redirected to the home page.
-
+F6. Clients should be able to cancel their membership.
 
 Should Have
 
@@ -116,6 +116,7 @@ Alternate Flows:
 
 ### Additional Information
 - Components.html should technically only show the componential structure of the website but I decided to do a mini demo of a dashboard layout with newsletter, article and section.
+
 
 
 
